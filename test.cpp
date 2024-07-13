@@ -4,6 +4,5 @@
 
 int main(){
     writeJoke();
-
-    std::cout << getJoke() << std::endl;
+    std::cout << getJoke();
 }
