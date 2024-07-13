@@ -13,6 +13,7 @@ class SimpleGUI:
     def add_label(self, text, row, column):
         label = tk.Label(self.root, text=text)
         label.grid(row=row, column=column)
+        return label
 
     # buttons to the window and handle button clicks
     def add_button(self, text, command, row, column):
