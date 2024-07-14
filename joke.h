@@ -11,7 +11,7 @@
 #define JOKE_H
 
 void writeJoke(){
-    const char* url_str = "https://punapi.rest/api/pun";
+    const char* url_str = "https://icanhazdadjoke.com/";
     const char* file_output_name = "joke_file.txt";
     if (!curl_download(file_output_name, url_str)) {
         throw std::runtime_error("Failed to download file");
